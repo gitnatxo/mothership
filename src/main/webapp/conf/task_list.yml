@@ -1,0 +1,19 @@
+---
+
+title: This is the task list title
+
+list:
+
+  - title: Search manual page
+
+#    description: This is the task description
+
+    prompt_list:
+
+      - name: page
+
+        prompt: Manual page
+
+        type: value
+
+    exec: man {{ page }}

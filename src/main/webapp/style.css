@@ -1,0 +1,34 @@
+a
+{
+    color: #4d4d4d;
+}
+
+body
+{
+    color: #4d4d4d;
+    font-family: arial;
+}
+
+a#title
+{
+    color: #164450;
+    /*color: #7b0449;*/
+}
+
+div.task
+{
+    background: #eeeeee;
+    border-radius: 8pt;
+    margin: 16pt;
+    padding: 2pt 16pt 2pt 16pt;
+}
+
+div#task_header
+{
+    margin: 0 0 16pt 0;
+}
+
+div#task_prompts
+{
+    margin: 8pt;
+}
