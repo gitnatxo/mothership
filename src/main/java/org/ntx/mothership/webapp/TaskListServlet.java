@@ -100,17 +100,17 @@ public class TaskListServlet extends HttpServlet
 
                         jsonTask.put("prompt_list", jsonPromptList);
 
-                        for (i = 0; i < promptList.size(); i++)
+                        for (int j = 0; j < promptList.size(); j++)
                         {
                             JSONObject jsonPrompt = new JSONObject();
 
                             jsonPromptList.add(jsonPrompt);
 
-                            jsonPrompt.put("name", ((Map<String, String>) promptList.get(i)).get("name"));
+                            jsonPrompt.put("name", ((Map<String, String>) promptList.get(j)).get("name"));
 
-                            jsonPrompt.put("prompt", ((Map<String, String>) promptList.get(i)).get("prompt"));
+                            jsonPrompt.put("prompt", ((Map<String, String>) promptList.get(j)).get("prompt"));
 
-                            jsonPrompt.put("type", ((Map<String, String>) promptList.get(i)).get("type"));
+                            jsonPrompt.put("type", ((Map<String, String>) promptList.get(j)).get("type"));
                         }
                     }    
                 }
