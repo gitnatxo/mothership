@@ -18,7 +18,10 @@ function runTask()
         }
         else if (input.type == 'file')
         {
-            variableList[input.name] = input.value;
+console.log("file path: " + input.files[0].name);
+
+            //variableList[input.name] = input.value;
+            variableList[input.name] = input.files[0].name;
         }
         else
         {

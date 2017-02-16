@@ -67,7 +67,13 @@ public class Main extends Application
   VBox vb = new VBox();
 
   @Override
-  public void start(Stage primaryStage) {
+  public void start(Stage primaryStage)
+  {
+    primaryStage.setTitle("Mothership");
+
+	// TODO: set the application icon from the jar
+	// primaryScene.getIcons().add(new Image("/path/to/icon.png"));
+
     vb.setId("root");
 
     WebView  browser = new WebView();
