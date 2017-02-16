@@ -1,23 +1,34 @@
+/*
+ * The default templates contain the following colors
+ *
+ * main_bg: #ffffff
+ * text_fg: #4d4d4d
+ * title_fg: #164450
+ * task_bg: #eeeeee
+ *
+ */
+
 a
 {
-    color: #4d4d4d;
+    color: #4d4d4d; /* text_fg */
 }
 
 body
 {
-    color: #4d4d4d;
+    color: #4d4d4d; /* text_fg */
+	background: #ffffff /* main_bg */
     font-family: arial;
 }
 
 a#title
 {
-    color: #164450;
+    color: #164450; /* title_fg */
     /*color: #7b0449;*/
 }
 
 div.task
 {
-    background: #eeeeee;
+    background: #eeeeee; /* task_bg */
     border-radius: 8pt;
     margin: 16pt;
     padding: 2pt 16pt 2pt 16pt;
